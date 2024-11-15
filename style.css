@@ -34,6 +34,13 @@
   justify-content: space-evenly;
   font-size: var(--h2fontSize);
 }
+.matcher {
+  width: 250px;
+  height: 250px;
+  &:hover {
+    cursor: pointer;
+  }
+}
 .boxesCont {
   width: 100%;
   display: grid;
@@ -45,4 +52,7 @@
 .boxes {
   height: 250px;
   width: 250px;
+  &:hover {
+    cursor: pointer;
+  }
 }
